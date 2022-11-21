@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondoeyesik"
+    tools:context=".Registrarse">
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Formulario de registro"
+        android:textColor="@color/DarkTurquoise"
+        android:textSize="28sp"
+        tools:layout_editor_absoluteX="68dp"
+        tools:layout_editor_absoluteY="34dp" />
+
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombres y apellidos"
+        android:textColor="@color/DarkTurquoise"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="104dp"
+        tools:layout_editor_absoluteY="95dp" />
+
+    <EditText
+        android:id="@+id/et1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Ingrese su nombre"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="108dp"
+        tools:layout_editor_absoluteY="141dp" />
+
+    <TextView
+        android:id="@+id/tv4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Numero celular"
+        android:textColor="@color/DarkTurquoise"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="124dp"
+        tools:layout_editor_absoluteY="198dp" />
+
+    <EditText
+        android:id="@+id/et2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Ingrese su numero"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="108dp"
+        tools:layout_editor_absoluteY="240dp" />
+
+    <TextView
+        android:id="@+id/tv5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="E-mail"
+        android:textColor="@color/DarkTurquoise"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="173dp"
+        tools:layout_editor_absoluteY="300dp" />
+
+    <EditText
+        android:id="@+id/et3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Ingrese su e-mail"
+        android:inputType="textEmailAddress"
+        tools:layout_editor_absoluteX="108dp"
+        tools:layout_editor_absoluteY="343dp" />
+
+    <TextView
+        android:id="@+id/tv6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Craer contraseña"
+        android:textColor="@color/DarkTurquoise"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="122dp"
+        tools:layout_editor_absoluteY="397dp" />
+
+    <EditText
+        android:id="@+id/et4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Ingrese contraseña"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="108dp"
+        tools:layout_editor_absoluteY="445dp" />
+
+    <TextView
+        android:id="@+id/tv7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Confirmar contraseña"
+        android:textColor="@color/DarkTurquoise"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="90dp"
+        tools:layout_editor_absoluteY="507dp" />
+
+    <EditText
+        android:id="@+id/et5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Confirmar contraseña"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="108dp"
+        tools:layout_editor_absoluteY="557dp" />
+
+    <Button
+        android:id="@+id/boton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/DarkTurquoise"
+        android:text="registrarse"
+        app:cornerRadius="20dp"
+        tools:layout_editor_absoluteX="137dp"
+        tools:layout_editor_absoluteY="640dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
